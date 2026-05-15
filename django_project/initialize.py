@@ -21,6 +21,9 @@ import django
 
 from core.utils import create_superuser
 
+if os.getenv('INITIAL_KARTOZA_DATA'):
+    os.environ['INITIAL_DEFAULT_DATA'] = os.getenv('INITIAL_KARTOZA_DATA')
+
 django.setup()
 
 #########################################################

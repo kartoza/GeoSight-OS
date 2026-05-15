@@ -3,7 +3,7 @@
     "model": "core.colorpalette",
     "pk": 1,
     "fields": {
-      "name": "Default Color",
+      "name": "Kartoza Color",
       "description": "",
       "colors": "[\"#53a2cc\",\"#E8A331\"]"
     }
